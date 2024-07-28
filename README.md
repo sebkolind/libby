@@ -13,6 +13,7 @@ It is primarily for me, but if you find it useful, that's great!
 - 🟦 TypeScript
 - 🧪 Jest
 - 🐙 GitHub Actions
+- 📝 Documentation
 
 ## Usage
 
@@ -36,4 +37,9 @@ npm run test
 
 # Build for release
 npm run build
+
+# Docs
+docs:dev # development
+docs:build # build for release
+docs:preview # preview release
 ```
