@@ -1,0 +1,13 @@
+{
+  "include": ["lib/**/*.ts"],
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": ["dom", "ESNext"],
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "exactOptionalPropertyTypes": true,
+    "noUncheckedIndexedAccess": true
+  },
+  "exclude": []
+}

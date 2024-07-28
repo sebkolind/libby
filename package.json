@@ -1,0 +1,33 @@
+{
+  "name": "@sebkolind/ts-lib-starter",
+  "version": "0.0.1",
+  "description": "A TypeScript library starter template",
+  "source": "lib/main.ts",
+  "module": "dist/main.js",
+  "type": "module",
+  "types": "dist/types.d.ts",
+  "scripts": {
+    "dev": "parcel watch --no-cache",
+    "build": "rm -rf .parcel-cache dist && parcel build",
+    "test": "jest"
+  },
+  "keywords": [
+    "typescript",
+    "starter",
+    "library",
+    "parcel"
+  ],
+  "author": "sebkolind <sks1993@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@parcel/packager-ts": "^2.12.0",
+    "@parcel/transformer-typescript-types": "^2.12.0",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.14.11",
+    "jest": "^29.7.0",
+    "parcel": "^2.12.0",
+    "ts-jest": "^29.2.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
