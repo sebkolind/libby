@@ -12,6 +12,7 @@ It is primarily for me, but if you find it useful, that's great!
 - 📦 Parcel
 - 🟦 TypeScript
 - 🧪 Jest
+- 🐙 GitHub Actions
 
 ## Usage
 
