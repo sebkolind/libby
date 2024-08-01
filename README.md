@@ -23,9 +23,12 @@ git clone git@github.com:sebkolind/ts-lib-starter.git my-project
 
 # Change working directory to your project
 cd my-project
+
+# Install dependencies
+npm install
 ```
 
-### Configure package
+### Configure Package
 
 Open the `package.json` file and change the `name`, `description` and `author` fields to something you'd like.
 The `name` should be unique and you should use a namespace (like how I use `@sebkolind` for my packages),
@@ -34,8 +37,6 @@ The `name` should be unique and you should use a namespace (like how I use `@seb
 ### Start building
 
 ```sh
-# Install dependencies
-npm install
 
 # Development
 npm run dev
@@ -51,3 +52,11 @@ docs:dev # development
 docs:build # build for release
 docs:preview # preview release
 ```
+
+## Write Documentation
+
+I use [VitePress](https://vitepress.dev/) to write documentation for my packages. It's easy to use, comes
+with a great default theme, and you write your content in Markdown.
+
+VitePress is already installed, so to get started you can use the documentation found [here](https://vitepress.dev/guide).
+I use the default configuration, so it should be easy to follow the guide from start to finish.
