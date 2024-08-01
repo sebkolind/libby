@@ -37,11 +37,10 @@ The `name` should be unique and you should use a namespace (like how I use `@seb
 ## Start building
 
 The package is setup with a `lib` folder which contains all your package code.
-Inside the lib folder is a `main.ts` file. This is the entry point, meaning that
-this will be the place to export code that can be used by consumers of your library.
+Inside the lib folder is a `main.ts` file. This is the entry point, and will be the place to export code that can be used by consumers of your library.
 
 The folder `__tests__` holds all your unit tests. When you run `npm run test` the files ending with
-`.test.ts` will run.
+`.test.ts` will be run.
 
 ```sh
 
