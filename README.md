@@ -58,5 +58,5 @@ docs:preview # preview release
 I use [VitePress](https://vitepress.dev/) to write documentation for my packages. It's easy to use, comes
 with a great default theme, and you write your content in Markdown.
 
-VitePress is already installed, so to get started you can use the documentation found [here](https://vitepress.dev/guide).
+VitePress is already installed, so to get started you can use the documentation found [here](https://vitepress.dev/guide/getting-started). 
 I use the default configuration, so it should be easy to follow the guide from start to finish.
