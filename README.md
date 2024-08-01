@@ -19,17 +19,25 @@ It is primarily for me, but if you find it useful, that's great!
 
 ```sh
 # Clone the template locally
-git clone git@github.com:sebkolind/ts-lib-starter.git ./my-project
+git clone git@github.com:sebkolind/ts-lib-starter.git my-project
 
-# Install dependencies
+# Change working directory to your project
 cd my-project
-npm add
 ```
 
-Now, you can use any of the `npm` commands:
+### Configure package
+
+Open the `package.json` file and change the `name`, `description` and `author` fields to something you'd like.
+The `name` should be unique and you should use a namespace (like how I use `@sebkolind` for my packages),
+`author` is you and `description` is a short summary of what your package is about.
+
+### Start building
 
 ```sh
-# Devlopement
+# Install dependencies
+npm install
+
+# Development
 npm run dev
 
 # Run tests

@@ -1,7 +1,8 @@
 {
-  "name": "@sebkolind/ts-lib-starter",
   "version": "0.0.1",
+  "name": "@sebkolind/ts-lib-starter",
   "description": "A TypeScript library starter template",
+  "author": "sebkolind <sks1993@gmail.com>",
   "source": "lib/main.ts",
   "module": "dist/main.js",
   "type": "module",
@@ -20,7 +21,6 @@
     "library",
     "parcel"
   ],
-  "author": "sebkolind <sks1993@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "@parcel/packager-ts": "^2.12.0",
