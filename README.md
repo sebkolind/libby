@@ -19,7 +19,7 @@ It is primarily for me, but if you find it useful, that's great!
 
 ```sh
 # Clone the template locally
-git clone git@github.com:sebkolind/ts-lib-starter.git my-project
+git clone git@github.com:sebkolind/libby.git my-project
 
 # Change working directory to your project
 cd my-project

@@ -1,6 +1,6 @@
 {
   "version": "0.0.1",
-  "name": "@sebkolind/ts-lib-starter",
+  "name": "@sebkolind/libby",
   "description": "A TypeScript library starter template",
   "author": "sebkolind <sks1993@gmail.com>",
   "source": "lib/main.ts",
