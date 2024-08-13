@@ -17,6 +17,13 @@ It is primarily for me, but if you find it useful, that's great!
 - 🐙 GitHub Actions
 - 📝 Documentation
 
+## Examples
+
+These are some of the libraries I've built using this template:
+
+- 🐲 [Draggy](https://github.com/sebkolind/draggy) — a lightweight drag&drop library.
+- ... more to come
+
 ## Usage
 
 ```sh
